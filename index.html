@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMSCAFE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo/logo-insano.png" alt="logo" class="logo">
+
+        <nav class="navbar">
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/icons/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                <li><a href="#image-cofee">Inicio</a></li>
+                <li><a href="#outstanding">Productos</a></li>
+                <li><a href="#about-us">Nosotros</a></li>
+                <li><a href="./login.html">Inicia Sesion</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <label for="cart-toggle" class="cart-label"><img src="./assets/icons/carrito.png" alt="cart-icon" class="cart-icon"></label>
+            <input type="checkbox" id="cart-toggle">
+            <div class="cart-des">
+                <h2>Tus Pedidos</h2>
+
+                <div class="cart-item">
+                    <img src="./assets/products/chipax6.jpg" alt="producto">
+                    <div class="item-info">
+                        <h3 class="item-title">Pancitos de queso X6</h3>
+                        <span class="item-price">$400</span>
+
+                    </div>
+                </div>
+
+                <span class="divider"></span>
+                
+                <div class="cart-total">
+                    <p>TOTAL</p>
+                    <span>$400</span>
+                </div>
+
+                <button class="buy">Finalizar Compra</button>
+
+
+
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="image-cofee">
+            <div class="container">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+        </section>
+
+        <section id="hero">
+
+            <h3>CATEGORIAS PRINCIPALES</h3>
+
+
+            <div class="categories">
+
+                <button class="category">BOX INFANTILES</button>
+                <button class="category">DESAYUNOS Y BOX DE REGALO</button>
+                <button class="category">TORTAS Y CUADRADOS</button>
+                <button class="category">PATISSERIES & BOULANGERIE</button>
+                <button class="category">SALADO</button>
+                <button class="category">CANDY BAR</button>
+                <button class="category">ALMACEN GOURMET</button>
+                <button class="category">VARIOS</button>
+                <button class="category">PRODUCTOS VEGANOS</button>
+                <button class="category">PRODUCTOS SIN TACC</button>
+
+
+            </div>
+
+        </section>
+
+        <section id="hero-mobile">
+            <img src="/assets/others/portada-mobile.jpeg" alt="portada">
+
+        </section>
+
+        <section id="outstanding">
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>DESTACADOS</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/sandwich.jpg" alt="sandwich">
+                        </div>
+                        <div class="product-info">
+                            <h3>SANDWICH MAS SALSA A ELECCION</h3>
+                            <p>$1150</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/black.jpg" alt="cafe y porcion de torta">
+                        </div>
+                        <div class="product-info">
+                            <h3>INFUSION MAS PORCION DE TORTA</h3>
+                            <p>$1500</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/latte.jpg" alt="latte">
+                        </div>
+                        <div class="product-info">
+                            <h3>LATTE MAS FACTURA A ELECCION</h3>
+                            <p>$1300</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/churros-snacks.jpg" alt="churros">
+                        </div>
+                        <div class="product-info">
+                            <h3>CHURROS PARA COMPARTIR</h3>
+                            <p>$600</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/cookies.jpeg" alt="cookies">
+                        </div>
+                        <div class="product-info">
+                            <h3>COOKIES ESPECIAL LA CASA</h3>
+                            <p>$200</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/aperit.jpg" alt="picada">
+                        </div>
+                        <div class="product-info">
+                            <h3>PICADA PARA COMPARTIR</h3>
+                            <p>$1700</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/cupcakes.jpg" alt="cupcakes">
+                        </div>
+                        <div class="product-info">
+                            <h3>CUPCAKES</h3>
+                            <p>$150</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/torta-dulce.jpg" alt="torta chocolate">
+                        </div>
+                        <div class="product-info">
+                            <h3>PORCION DE TORTA CHOCOLATE</h3>
+                            <p>$700</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-container">
+                    <div class="box">
+                        <div class="product">
+                            <img src="./assets/products/donuts.jpg" alt="donuts">
+                        </div>
+                        <div class="product-info">
+                            <h3>RANDOM DONUTS X6</h3>
+                            <p>$800</p>
+                        </div>
+                        <div class="product-botton">
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+
+    
+
+            </div>
+
+        </section>
+
+        <section id="offers">
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>OFERTAS</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+
+            <div class="offers-content">
+                <div class="product-container">
+                        <div class="box">
+                            <div class="product">
+                                <img src="./assets/products/share.jpg" alt="comida">
+                            </div>
+                            <div class="product-info">
+                                <h3>INFUSION MAS DISTINTOS APERITIVOS</h3>
+                                <p>$1900</p>
+                            </div>
+                            <div class="product-botton">
+                                <button>AGREGAR AL CARRITO</button>
+                            </div>
+                        </div>
+                </div>
+        
+                    <div class="product-container">
+                        <div class="box">
+                            <div class="product">
+                                <img src="./assets/products/coffe-media.jpg" alt="cafe y medialunas">
+                            </div>
+                            <div class="product-info">
+                                <h3>INFUSION MAS DOS MEDIALUNAS RELLENAS</h3>
+                                <p>$1860</p>
+                            </div>
+                            <div class="product-botton">
+                                <button>AGREGAR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="product-container">
+                        <div class="box">
+                            <div class="product">
+                                <img src="./assets/products/saludable.jpg" alt="saludable">
+                            </div>
+                            <div class="product-info">
+                                <h3>MENU SALUDABLE INDIVIDUAL</h3>
+                                <p>$2000</p>
+                            </div>
+                            <div class="product-botton">
+                                <button>AGREGAR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+        </section>
+
+        <section id="register">
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>NUESTRO NEWSLETTER</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+
+            <div>
+                <p>Registrate para recibir nuestras últimas novedades.</p>
+            </div>
+
+            <div class="form-info">
+                <form action="" method="post">
+                    <div>
+                        <label for="correo"></label>
+                        <input class="controls" type="email" id="correo" required placeholder="Tu-Email">
+                    </div>
+
+                </form>
+
+                <button>ENVIAR</button>
+
+            </div>
+            
+        </section>
+
+        <section id="about-us-mobile">
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>NOSOTROS</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+            <div class="images">
+                <img src="./assets/others/orange.jpeg" alt="Postal orange">
+                <img src="./assets/mesas.jpeg" alt="Postal">
+            </div>
+            <div>
+                <p>Queremos que disfrutes de una experiencia única. 
+                    Para eso elaboramos cada producto con las mejores materias primas del mercado y los fabricamos en nuestras instalaciones de manera artesanal por manos expertas. 
+                    Nuestra pastelería es de excelencia, con una presentación cuidada y pensada para deleitarte. La comida es rica, con sabores caseros, que confortan a quien la pruebe. 
+                    Te esperamos en nuestro espacio para desayunar, almorzar o merendar. Cuando vengas a EMMSCAFE vas a recibir una atención distinguida que te guiará para que te sumerjas en una experiencia única, repleta de sabores inolvidables. 
+                    ¿Qué estás esperando para venir a disfrutar?</p>
+            </div>
+
+
+
+        </section>
+
+        <section id="about-us">
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>NOSOTROS</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+
+            <div class="info-me">
+                <img src="./assets/others/orange.jpeg" alt="Postal orange">
+                <p>Queremos que disfrutes de una experiencia única. 
+                    Para eso elaboramos cada producto con las mejores materias primas del mercado y los fabricamos en nuestras instalaciones de manera artesanal por manos expertas. 
+                    Nuestra pastelería es de excelencia, con una presentación cuidada y pensada para deleitarte. La comida es rica, con sabores caseros, que confortan a quien la pruebe. 
+                    Te esperamos en nuestro espacio para desayunar, almorzar o merendar. Cuando vengas a EMMSCAFE vas a recibir una atención distinguida que te guiará para que te sumerjas en una experiencia única, repleta de sabores inolvidables. 
+                    ¿Qué estás esperando para venir a disfrutar?</p>
+
+                <img src="./assets/mesas.jpeg" alt="Postal">
+            </div>
+
+        </section>
+
+        <section id="social">
+
+            <div class="title">
+                <div class="title-content">
+                    <div class="l-1"></div>
+                    <h3>SEGUINOS</h3>
+                    <div class="l-2"></div>
+                </div>
+            </div>
+
+            <div class="social-icon">
+                <a href="https://www.facebook.com/PAULINE.Boulangerie.1964/" target="_blank"><img src="/assets/icons/facebook.png" alt="icon-face"></a>
+                <a href="https://www.instagram.com/paulineboulangerie/" target="_blank"><img src="/assets/icons/insta.png" alt="icon-insta"></a>
+                <a href="https://ar.pinterest.com/paulineboulangerieok/?invite_code=23818948617b41a1ae775adbc869cc5a&sender=936397084930678868" target="_blank"><img src="/assets/icons/pinterest.png" alt="icon-pinterest"></a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contact">
+            <div class="nave">
+                    <h3>NAVEGACION</h3>
+                    <ul>
+                        <li><a href="#image-cofee">Inicio</a></li>
+                        <li><a href="#outstanding">Productos</a></li>
+                        <li><a href="#about-us">Nosotros</a></li>
+                        <li><a href="#register">Registrate</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+            </div>
+
+            <div class="pay">
+                <h3>METODOS DE PAGO</h3>
+                <div class="pay-icon">
+                    <img src="./assets/icons/medios-de-pago.png" alt="metodos de pago">
+                </div>
+            </div>
+
+            <div class="support">
+                <h3>CONTACTANOS</h3>
+                <ul>
+                    <li>📞1153269364</li>
+                    <li>✉️info@emmscafe.com</li>
+                    <li>📍Posales 126. Ramos Mejía</li>
+                </ul>
+            </div>
+
+    </footer>
+    
+</body>
+</html>
