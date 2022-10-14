@@ -101,12 +101,35 @@
 
 @media (max-width: 576px) {
 
+    header{
+        padding: 10px;
+    }
+    
     .cart-des{
         top: 100px;
         width: 100%;
     }
+    .cards{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 250px;
+    }
+
+    .product img{
+        width: 250px;
+    }
+
+    .product-botton button{
+        width: 200px;
+    }
 
 
+
+    .controls{
+        width: 300px;
+    }
 
 
     #hero-mobile img{
@@ -115,7 +138,7 @@
     }
 
     .title-content h3{
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .l-1{
@@ -125,6 +148,7 @@
     .l-2{
         width: 50px;
     }
+
 
     .info-me{
         flex-direction: column;
@@ -136,14 +160,14 @@
     }
 
 
-
-
-
-    
-
     footer{
         flex-direction: column;
         gap: 30px;
+    }
+
+    .pay-icon img{
+        width: 250px;
+        height: 100px;
     }
 
 
